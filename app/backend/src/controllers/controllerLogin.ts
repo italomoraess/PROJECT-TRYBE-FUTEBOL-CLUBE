@@ -5,7 +5,7 @@ import serviceLogin from '../services/serviceLogin';
 
 const login = async (req: Request, res: Response): Promise<Response> => {
   const { email, password } = req.body;
-  const user = await serviceLogin(email, password);
+  const user = await serviceLogin.login(email, password);
   if (user === undefined) {
     return res.status(401).json({ message: 'Incorrect email or password' });
   }
@@ -20,4 +20,11 @@ const login = async (req: Request, res: Response): Promise<Response> => {
   return res.status(200).json({ user, token });
 };
 
-export default login;
+const loginValidate = async (req: Request, res: Response): Promise<Response> => {
+  const { authorization } = req.headers;
+  if (!authorization) return res.status(400).json({ message: 'Token invalid' });
+  const user = await serviceLogin.loginValidate(authorization);
+  return res.status(200).json(user);
+};
+
+export default { login, loginValidate };
