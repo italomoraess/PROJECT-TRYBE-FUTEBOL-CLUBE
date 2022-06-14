@@ -32,4 +32,11 @@ const updateMatch = async (id: number) => {
   );
 };
 
-export default { getAll, create, updateMatch };
+const updateMatchProgress = async (id: number, homeTeamGoal: number, awayTeamGoal: number) => {
+  await Match.update(
+    { homeTeamGoals: homeTeamGoal, awayTeamGoals: awayTeamGoal },
+    { where: { id } },
+  );
+};
+
+export default { getAll, create, updateMatch, updateMatchProgress };

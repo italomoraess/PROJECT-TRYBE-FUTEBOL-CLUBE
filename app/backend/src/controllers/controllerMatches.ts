@@ -28,4 +28,12 @@ const updateMatch = async (req: Request, res: Response) => {
   return res.status(200).json({ message: 'Finiched' });
 };
 
-export default { getAll, create, updateMatch };
+const updateMatchProgress = async (req: Request, res: Response) => {
+  const { id } = req.params;
+  const { homeTeamGoals, awayTeamGoals } = req.body;
+  await serviceMatches.updateMatchProgress(+id, homeTeamGoals, awayTeamGoals);
+
+  return res.status(200).json({ message: 'Finiched' });
+};
+
+export default { getAll, create, updateMatch, updateMatchProgress };
