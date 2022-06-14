@@ -12,4 +12,24 @@ const getAll = async () => {
   // https://stackoverflow.com/questions/42661141/findall-include-more-tables-on-sequelize-query
 };
 
-export default { getAll };
+const create = async (match: Match) => {
+  if (match.homeTeam === match.awayTeam) return undefined;
+
+  const teamHome = await Team.findByPk(match.homeTeam);
+  const teamAway = await Team.findByPk(match.awayTeam);
+
+  if (!teamHome || !teamAway) return 'False';
+
+  const insertMatch = await Match.create(match);
+
+  return insertMatch;
+};
+
+const updateMatch = async (id: number) => {
+  await Match.update(
+    { inProgress: 0 },
+    { where: { id } },
+  );
+};
+
+export default { getAll, create, updateMatch };
