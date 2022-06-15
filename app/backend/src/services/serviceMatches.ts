@@ -1,3 +1,4 @@
+import IMatch from '../interfaces/IMatch';
 import Match from '../database/models/Match';
 import Team from '../database/models/Team';
 
@@ -10,6 +11,17 @@ const getAll = async () => {
   });
   return matches;
   // https://stackoverflow.com/questions/42661141/findall-include-more-tables-on-sequelize-query
+};
+
+const getAllInProgress = async () => {
+  const inProgress = await Match.findAll({
+    where: { inProgress: false },
+    include: [
+      { model: Team, as: 'teamHome', attributes: { exclude: ['id'] } },
+      { model: Team, as: 'teamAway', attributes: { exclude: ['id'] } },
+    ],
+  });
+  return inProgress as unknown as IMatch[];
 };
 
 const create = async (match: Match) => {
@@ -39,4 +51,4 @@ const updateMatchProgress = async (id: number, homeTeamGoal: number, awayTeamGoa
   );
 };
 
-export default { getAll, create, updateMatch, updateMatchProgress };
+export default { getAll, create, updateMatch, updateMatchProgress, getAllInProgress };
