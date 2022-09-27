@@ -1,4 +1,4 @@
-# PROJECT-TRYBE-FUTEBOL-CLUBE
+# Project Trybe Futebol Clube
 
 <img src="/imgs/Tela_Login.png">
 
