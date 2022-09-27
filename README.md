@@ -2,7 +2,7 @@
 
 <img src="/imgs/Tela_Login.png">
 <details>
-    # Como rodar o projeto:
+    <summary>Como rodar o projeto</sumary>
 
     Na sua máquina você deve ter:
 
