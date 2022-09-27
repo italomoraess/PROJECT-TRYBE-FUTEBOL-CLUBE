@@ -2,7 +2,7 @@
 
 <img src="/imgs/Tela_Login.png">
 <details>
-    <summary>Como rodar o projeto</sumary>
+    <summary>Como rodar o projeto</sumary><br>
     Na sua máquina você deve ter:
 
     .Node versão 16
