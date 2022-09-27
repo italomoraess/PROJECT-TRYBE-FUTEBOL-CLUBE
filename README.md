@@ -1,3 +1,3 @@
 # PROJECT-TRYBE-FUTEBOL-CLUBE
 
-<img src="/imgs/Tela_login.png">
+<img src="/imgs/Tela_Login.png">
