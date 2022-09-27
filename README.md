@@ -9,6 +9,9 @@ Como rodar o projeto:
     .Node versão 16
     .Docker
     .Docker-compose versão 1.29.2
+    
+    <h2>1 - Clone o repositorio na sua maquina: https://github.com/italomoraess/Project-Trybe-Futebol-Clube</h2>
+    
 
 
 <p>Login: admin@admin </p>
