@@ -1,10 +1,10 @@
 # Project Trybe Futebol Clube
 
 <img src="/imgs/Tela_Login.png">
-Na sua máquina você deve ter:
-    .Node versão 16
-    .Docker
-    .Docker-compose versão 1.29.2
+<h3>Na sua máquina você deve ter:<br></h3>
+    .Node versão 16<br>
+    .Docker<br>
+    .Docker-compose versão 1.29.2<br>
     
   
 <details>
