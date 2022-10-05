@@ -9,7 +9,9 @@
   
 <details>
     <summary><strong>Como rodar o projeto</strong></sumary><br>
-Na sua máquina você deve ter:
+    
+    Na sua máquina você deve ter:
+    
 </details>
     
 
