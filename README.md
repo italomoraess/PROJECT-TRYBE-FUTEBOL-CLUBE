@@ -4,11 +4,11 @@
     
 <strong><h3>Como rodar o projeto:</h3></strong>
 
-    <h4>Na sua máquina você deve ter:<br></h4>
+    Na sua máquina você deve ter:
 
-    Node versão 16<br>
-    Docker<br>
-    Docker-compose versão 1.29.2<br>
+    Node versão 16
+    Docker
+    Docker-compose versão 1.29.2
 
 
 <p>Login: admin@admin </p>
