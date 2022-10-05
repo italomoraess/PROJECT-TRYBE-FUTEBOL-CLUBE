@@ -9,9 +9,7 @@
   
 <details>
     <summary><strong>Como rodar o projeto</strong></sumary><br>
-    
-        <h3>Na sua máquina você deve ter:<br></h3>
-    
+    <p>Voce precisa de:</p>
 </details>
     
 
