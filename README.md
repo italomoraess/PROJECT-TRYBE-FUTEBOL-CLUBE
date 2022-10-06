@@ -15,6 +15,8 @@ Na sua máquina você deve ter:
  
 Na Raiz do projeto execute:
 	
+	npm install
+	
 	npm run compose:up
 
 E espere os containers subirem!
