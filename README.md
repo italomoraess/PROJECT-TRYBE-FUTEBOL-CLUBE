@@ -14,10 +14,11 @@ Na sua máquina você deve ter:
  - Docker-compose versão 1.29.2
  
 Na Raiz do projeto execute:
+	
+	npm run compose:up
 
-  npm run compose:up
-  
-espere os container 
+E espere os containers subirem!
+
 
 </details>
 
