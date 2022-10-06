@@ -21,10 +21,11 @@ Logo apos suba os containers:
 	
 	npm run compose:up
 
-Depois so acessar http://localhost:3000/login e fazer o login
-
+Depois so acessar http://localhost:3000/login e fazer o login:
+	
+	Login: admin@admin 
+	Senha: secret_admin 
 
 </details>
 
-<p>Login: admin@admin </p>
-<p>Senha: secret_admin </p>
+
