@@ -23,7 +23,7 @@ Logo apos suba os containers:
 
 Depois so acessar http://localhost:3000/login e fazer o login:
 	
-	Login: admin@admin 
+	Login: admin@admin.com
 	Senha: secret_admin 
 
 </details>
