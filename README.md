@@ -20,6 +20,9 @@ Na Raiz do projeto instale as dependencias:
 Logo apos suba os containers:
 	
 	npm run compose:up
+	
+![Exemplo app front](imgs/Containers_healthy.png)	
+	
 
 Depois so acessar http://localhost:3000/login e fazer o login:
 	
