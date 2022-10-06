@@ -13,13 +13,15 @@ Na sua máquina você deve ter:
  - Docker
  - Docker-compose versão 1.29.2
  
-Na Raiz do projeto execute:
+Na Raiz do projeto instale as dependencias:
 	
 	npm install
 	
+Logo apos suba os containers:
+	
 	npm run compose:up
 
-E espere os containers subirem!
+Depois so acessar http://localhost:3000/login e fazer o login
 
 
 </details>
