@@ -12,6 +12,12 @@ Na sua máquina você deve ter:
  - Node versão 16  
  - Docker
  - Docker-compose versão 1.29.2
+ 
+Na Raiz do projeto execute:
+
+  npm run compose:up
+  
+espere os container 
 
 </details>
 
