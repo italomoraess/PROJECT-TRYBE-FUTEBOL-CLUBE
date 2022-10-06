@@ -3,7 +3,7 @@
 <img src="/imgs/Tela_Login.png">
     
 <details>
-  <summary><strong>⚠️ Configurações mínimas nas máquinas locais para rodar o projeto</strong></summary><br />
+  <summary><strong>⚠️ Como rodar o projeto:</strong></summary><br />
 
 
 Na sua máquina você deve ter:
