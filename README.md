@@ -1,6 +1,7 @@
 # Project Trybe Futebol Clube
 
 <img src="/imgs/Tela_Login.png">
+Obs: Backend desenvolvido por mim e o frontend desenvolvido pela Trybe
     
 <details>
   <summary><strong>⚠️ Como rodar o projeto:</strong></summary><br />
