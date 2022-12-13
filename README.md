@@ -3,7 +3,8 @@
 <img src="/imgs/Tela_Login.png">
 Obs: Backend desenvolvido por mim e o frontend desenvolvido pela Trybe
 
-    
+O TFC é um projeto que mostra partidas de futebol
+
 <details>
   <summary><strong>⚠️ Como rodar o projeto:</strong></summary><br />
 
